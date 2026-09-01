@@ -26,7 +26,7 @@ Configured the Wazuh agent on `VMWORKSTATION1` to collect real time system metri
 * **Compliance Checks:** PCI DSS regulatory mapping and MITRE ATT&CK Defense Evasion tagging.
 * **SCA Results:** Scanned 395 controls with 127 Passed, 260 Failed.
 
-![Wazuh Endpoint Overview and SCA Scan](./1-wazuh-endpoint-sca.png)
+![Wazuh Endpoint Overview and SCA Scan](./1-wazuh-endpoint-csa.png)
 
 ---
 
@@ -48,7 +48,7 @@ Ingested endpoint security event logs into the central Indexer repository (`wazu
 * **Caller Process:** `C:\Windows\System32\svchost.exe`
 * **Failure Code:** `0xC000006D` / Sub Status `0xC000006A`
 
-![Wazuh Telemetry Analysis Event 4625](./3-wazuh-telemetry-event4625.png)
+![Wazuh Telemetry Analysis Event 4625](./3-wazuh-telemetry-events4625.png)
 
 ---
 

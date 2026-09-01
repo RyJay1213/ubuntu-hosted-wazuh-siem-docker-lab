@@ -1,6 +1,6 @@
 # ubuntu-hosted-wazuh-siem-docker-lab
 SIEM deployment with Wazuh in Docker, multi-platform agent enrollment, CIS benchmark compliance scanning, and real time security log analysis.
-# Open-Source SIEM Deployment and Security Telemetry Wazuh and Docker
+# Open-Source SIEM Deployment and Security Telemetry with Wazuh through Docker container
 
 This repository documents the deployment of an enterprise open-source SIEM using **Wazuh** running in Docker on an Ubuntu Live Server instance on a VMWare VM. It details agent deployment across multi-platform endpoints, Security Configuration Assessment, compliance auditing, and central threat detection event ingestion.
 
@@ -36,7 +36,7 @@ Enrolled multiple endpoint operating systems into the central Manager node (`nod
 * **Windows Agent:** `VMWORKSTATION1` - Active
 * **macOS Agent:** `MacBook-Air.local` - Previously Active
 
-![Wazuh Multi-Platform Agents Dashboard](./2-wazuh-agents-overview.png)
+![Wazuh Multi-Platform Agents Dashboard](./2-wazuh-agents-overview.jpg)
 
 ---
 
@@ -55,7 +55,7 @@ Ingested endpoint security event logs into the central Indexer repository (`wazu
 ### 4. Focused Threat Hunting and Agent Event Stream
 Filtered alert indices (`manager.name: wazuh.manager AND agent.name: VMWORKSTATION1`) to establish a real time event pipeline for endpoint activity monitoring and threat detection verification.
 
-![Wazuh Agent Specific Event Stream](./4-wazuh-agent-event-stream.png)
+![Wazuh Agent Specific Event Stream](./4-wazuh-agent-event-stream.jpg)
 
 ---
 
